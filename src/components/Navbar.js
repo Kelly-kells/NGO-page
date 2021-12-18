@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {Link} from 'react-router-dom'
 
 
 function Navbar() {
-    
+    const[click, setClick] = useState(false);
+     
+    const handleClick =() =>setClick(!click)
+
+
         return (
             <nav className="navbar">
               <div className="nav-container">
                 <Link to="/" className="nav-logo" >
                  Charity
+                
                 </Link>
 
                 <ul className='nav-menu'>
@@ -33,6 +38,9 @@ function Navbar() {
                 </Link>
                   </li>
                 </ul>
+              <div className="nav-icon" onClick={handleClick}>
+              <i className={ click ? "fas fa-times":"fas fa-bars"}></i>
+              </div>
               </div>
             </nav>
         );
