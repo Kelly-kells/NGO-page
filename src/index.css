@@ -43,7 +43,7 @@ body{
   text-align: center;
   margin-right: 2rem;
 }
-.nav-links{
+#nav-links{
   color: #fff;
   text-decoration: none;
   padding: 0.5rem 1rem;
@@ -69,6 +69,10 @@ body{
 .nav-icon{
   display: none;
 }
+.nav-item .active {
+  color:cyan;
+  border: 1px solid cyan;
+}
 
 @media  screen and (max-width:960px) {
   .nav-menu{
@@ -84,5 +88,27 @@ body{
 
   .nav-icon{
     display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100, 60%);
+    font-size:1.8rem;
+    cursor: pointer;
+    color: cyan;
+  }
+  #nav-links{
+    padding: 1rem;
+    width: 100%;
+    display: table;
+  }
+  .nav-item .active{
+    color: cyan;
+    border: noneS;
+  }
+  .nav-menu.active{
+    background-color: #40916c;
+    left:0px;
+    opacity: 1;
+    transition: all 0.5s ease;
   }
 }
