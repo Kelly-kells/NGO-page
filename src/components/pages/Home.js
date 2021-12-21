@@ -5,8 +5,11 @@ export const Home =() => {
 
     return (
         <>
-           <div>
-               <h1>Home</h1>
+           <div className='home-container'>
+               <div className="home-img">
+                   <img src="../images/kids.jpg"alt="africa"/>
+               </div>
+               
            </div>
         </>
     )
