@@ -73,6 +73,49 @@ body{
   color:cyan;
   border: 1px solid cyan;
 }
+.home-container{
+  display: flex;
+}
+.home-img img{
+  width: 70%;
+  border-radius: 50px;
+}
+.heading{
+ text-align: center; 
+ height: 6rem;
+ padding-top: 4rem;
+}
+.image.image-1{
+  background: url(../public/images/chance.jpg);
+  background-size: cover ;
+  width: 100%;
+}
+.image.image-2{
+  background: url(../public/images/happy.jpg);
+  background-size: cover ;
+  width: 100%;
+}
+.image.image-3{
+  background: url(../public/images/kids.jpg);
+  background-size: cover ;
+  
+}
+.image.image-1{
+  background: url(../public/images/chance.jpg);
+  background-size: cover ;
+  
+}
+.image.image-2{
+  background: url(../public/images/happy.jpg);
+  background-size: cover ;
+  
+}
+.image.image-3{
+  background: url(../public/images/kids.jpg);
+  background-size: cover ;
+ 
+}
+
 
 @media  screen and (max-width:960px) {
   .nav-menu{
