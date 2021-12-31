@@ -14,7 +14,14 @@ export const Home =() => {
             <h2>EVERYONE DESERVES A Chance!</h2>
             <p>A peaceful and sane society cannot be achieved <br />
                unless everyone has access to basic Lorem ipsum dolor <br />
-                sit amet, consectetur adipisicing elit. Provident, voluptates?
+                sit amet, consectetur adipisicing elit. Provident, volup <br />tates?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br /> Consequatur  
+                eius aspernatur voluptatem esse saepe, <br />tempore qui quasi autem molestias facilis.
+                A peaceful and sane society cannot be achieved <br />
+               unless everyone has access to basic Lorem ipsum dolor <br />
+                sit amet, consectetur adipisicing elit. Provident, volup <br />tates?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br /> Consequatur  
+                eius aspernatur voluptatem esse saepe, <br />tempore qui quasi autem molestias facilis.
             </p>
                </div>
             

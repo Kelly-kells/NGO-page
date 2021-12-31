@@ -91,6 +91,35 @@ body{
 .text{
   margin-left: 4rem;
 }
+.home-container p{
+  line-height: 2rem;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+.type-out{
+  overflow: hidden;
+  
+  white-space: nowrap;
+  animation: 
+    typing 1s forwards;
+  font-size: 1.6rem;
+  width: 0;}
+
+.container {
+  display: inline-block;
+padding: 0;
+  text-align: center;
+  margin-left: 100px;
+}
+.container h1{
+ padding: 1.5rem;
+ text-decoration: underline;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
 
 
 @media  screen and (max-width:960px) {
@@ -136,5 +165,14 @@ body{
   .home-container img{
     width: 80%;
     align-items: center;
+  }
+  .container{
+    width: 100%;
+    margin: 0;
+  }
+  .type-out{
+    width:100%;
+    padding: 0;
+  
   }
 }
