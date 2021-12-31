@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+
 
 export const Home =() => {
     
@@ -8,11 +9,13 @@ export const Home =() => {
         <h1 className='heading'>Innocent Charity Foundation</h1>
 
            <div className='home-container'>
-               <div className="home-img">
-                   <img src="../images/kids.jpg"alt="africa"/>
-               </div>
+           <img src="/imageFolder/kids.jpg" alt="" />
                <div className="text">
-                
+            <h2>EVERYONE DESERVES A Chance!</h2>
+            <p>A peaceful and sane society cannot be achieved <br />
+               unless everyone has access to basic Lorem ipsum dolor <br />
+                sit amet, consectetur adipisicing elit. Provident, voluptates?
+            </p>
                </div>
             
            </div>

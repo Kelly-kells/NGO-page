@@ -73,47 +73,23 @@ body{
   color:cyan;
   border: 1px solid cyan;
 }
-.home-container{
-  display: flex;
-}
-.home-img img{
-  width: 70%;
-  border-radius: 50px;
-}
+
+
 .heading{
  text-align: center; 
  height: 6rem;
- padding-top: 4rem;
+ padding: 2rem;
 }
-.image.image-1{
-  background: url(../public/images/chance.jpg);
-  background-size: cover ;
-  width: 100%;
+
+/**HOME SECTION**/
+.home-container{
+  display: flex;
 }
-.image.image-2{
-  background: url(../public/images/happy.jpg);
-  background-size: cover ;
-  width: 100%;
+.home-container img{
+  width: 50%;
 }
-.image.image-3{
-  background: url(../public/images/kids.jpg);
-  background-size: cover ;
-  
-}
-.image.image-1{
-  background: url(../public/images/chance.jpg);
-  background-size: cover ;
-  
-}
-.image.image-2{
-  background: url(../public/images/happy.jpg);
-  background-size: cover ;
-  
-}
-.image.image-3{
-  background: url(../public/images/kids.jpg);
-  background-size: cover ;
- 
+.text{
+  margin-left: 4rem;
 }
 
 
@@ -153,5 +129,12 @@ body{
     left:0px;
     opacity: 1;
     transition: all 0.5s ease;
+  }
+  .home-container{
+    display: block;
+  }
+  .home-container img{
+    width: 80%;
+    align-items: center;
   }
 }
