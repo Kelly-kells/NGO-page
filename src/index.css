@@ -116,6 +116,35 @@ padding: 0;
  text-decoration: underline;
 }
 
+/**ARCHIVE SECTION**/
+
+.archive{
+ background-color: white;
+ width: 800px;
+ height: 600px;
+ margin-left: auto;
+ margin-right: auto;
+ overflow: hidden;
+ text-align: center;
+}
+.image-container{
+  width: 3200px;
+  height:600px;
+  position: relative;
+  transition: 2s;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  
+}
+.slider{
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 800px;
+
+}
+
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
