@@ -5,10 +5,10 @@ export const Home =() => {
     
 
     return (
-        <>
+        <div className='overall-container'>
         <h1 className='heading'>Innocent Charity Foundation</h1>
 
-           <div className='home-container'>
+           <section className='home-container'>
            <img src="/imageFolder/kids.jpg" alt="" />
                <div className="text">
             <h2>EVERYONE DESERVES A Chance!</h2>
@@ -25,9 +25,9 @@ export const Home =() => {
             </p>
                </div>
             
-           </div>
+           </section>
 
-           <div className='container'>
+           <section className='container'>
                <h1>OUR GOALS</h1>
                   <p className='type-out'>
                       Innocent charity foundation, is a foundation  that caters for the differently pridveleged.<br />
@@ -43,11 +43,11 @@ export const Home =() => {
 
                   </p>
                
-           </div>
+           </section>
 
 
 
-           <div className='archive'>
+           <section className='archive'>
           <span id='slider-image1'></span>
           <span id='slider-image2'></span>
           <span id='slider-image3'></span>
@@ -64,7 +64,7 @@ export const Home =() => {
       <a href="#slider-image3" className='slider-button'> </a>
       <a href="#slider-image4" className='slider-button'> </a>
         </div>
+        </section>
         </div>
-        </>
     )
 }
