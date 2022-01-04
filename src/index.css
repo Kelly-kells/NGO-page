@@ -1,26 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap');
 body{
   font-family: 'Lora', serif;
   background-color: white;
+  scroll-behavior: smooth;
 }
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-section{
-  scroll-snap-align: start;
-  height: 100%;
-}
-.overall-container{
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll ;
-  height: 100%;
-  transition: 500ms ;
-  transform: height;
-  
-}
+
+
+
 .pages{
   color: #11823b;
 }
@@ -92,7 +84,9 @@ section{
  text-align: center; 
  height: 6rem;
  padding: 2rem;
+ margin: 30px;
  color: #11823b;
+ font-family: 'Cinzel Decorative', cursive;
 
 }
 
@@ -103,6 +97,13 @@ section{
 .home-container img{
   width: 50%;
 }
+
+.home-container img:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
 .text{
   margin-left: 4rem;
 }
@@ -110,7 +111,13 @@ section{
   line-height: 2rem;
   font-size: 1.2rem;
   margin-top: 10px;
+} 
+
+.home-container h2{
+  font-family: 'Cinzel Decorative', cursive;
 }
+/**ABOUT SECTION**/
+
 .type-out{
   overflow: hidden;
   
@@ -130,6 +137,7 @@ padding: 0;
 .container h1{
  padding: 1.5rem;
  text-decoration: underline;
+ font-family: 'Cinzel Decorative', cursive;
 }
 
 /**ARCHIVE SECTION**/
@@ -160,7 +168,11 @@ padding: 0;
   margin: 0;
   padding: 0;
   width: 800px;
-
+}
+.slider:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }
 .button-container{
   top: -29;
@@ -261,6 +273,9 @@ left: -800px;
  }
  .home-container img{
   width: 100%;
+}
+.text{
+  margin-top: 30px;
 }
 
 }
